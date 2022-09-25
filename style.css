@@ -5,6 +5,7 @@ html { box-sizing: border-box; }
 body {
     text-rendering: optimizeLegibility;
     font-family: 'Rubik', sans-serif;
+    background-color: #f5f5f5;
 }
 
 /*
@@ -61,6 +62,8 @@ h2 {
     text-transform: uppercase;
     font-size: 16px;
     font-weight: 500;
+    margin-top: 30px;
+
 }
 
 .tempo {
@@ -98,3 +101,46 @@ h2 {
     margin-bottom: 30px;
 }
 
+.damska-bota {
+    font-size: 15px;
+    color:  #959595;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.popis {
+    font-size: 14px;
+    padding-bottom: 30px;
+    border-bottom: solid 1px #06d7c1 ;
+    margin: 0
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    padding-left: 0;
+    
+}
+
+li {
+    padding: 7px;
+    margin: 5px;
+}
+
+.tricet-osm {
+    border: solid 1px #f15f42;
+    border-radius: 50%;
+    color: #f15f42;
+}
+
+a {
+    text-decoration: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    background-color: #f15f42;
+    color: white;
+    text-transform: uppercase;
+    font-size: 14px;
+}
